@@ -180,23 +180,23 @@ header div {
   margin: 0 auto ;
   padding: 15px 0;
 }
-@media (min-width: 500px) {
+@media (max-width: 500px) {
   header div {
-    width: 100px;
+    width: 100%;
   }
 }
-@media (min-width: 500px) {
+@media (max-width: 500px) {
   header div {
     text-align: center;
   }
 }
-@media (min-width: 500px) {
+@media (max-width: 500px) {
   header div h1 {
     display: block;
     width: 100%;
   }
 }
-@media (min-width: 500px) {
+@media (max-width: 500px) {
   header div nav {
     margin: auto;
   }
