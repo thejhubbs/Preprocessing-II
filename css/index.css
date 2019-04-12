@@ -177,6 +177,11 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .container {
+    padding: 0 25px;
+  }
+}
 header {
   border-bottom: 2px dashed grey;
 }
@@ -243,9 +248,19 @@ header div ul li a {
   width: 48%;
   padding-right: 1%;
 }
+@media (max-width: 500px) {
+  .home .content-section .text-content {
+    width: 100%;
+  }
+}
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
+}
+@media (max-width: 500px) {
+  .home .content-section .img-content {
+    width: 100%;
+  }
 }
 .home .content-section .img-content img {
   border-radius: 10px;
@@ -253,6 +268,11 @@ header div ul li a {
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
+}
+@media (max-width: 500px) {
+  .home .inverse-content {
+    flex-wrap: wrap-reverse;
+  }
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -273,9 +293,21 @@ header div ul li a {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination h4 {
+    margin-top: 20px;
+  }
 }
