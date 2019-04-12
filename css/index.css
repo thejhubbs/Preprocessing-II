@@ -175,8 +175,31 @@ header div {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   width: 800px;
   margin: 0 auto ;
+  padding: 15px 0;
+}
+@media (min-width: 500px) {
+  header div {
+    width: 100px;
+  }
+}
+@media (min-width: 500px) {
+  header div {
+    text-align: center;
+  }
+}
+@media (min-width: 500px) {
+  header div h1 {
+    display: block;
+    width: 100%;
+  }
+}
+@media (min-width: 500px) {
+  header div nav {
+    margin: auto;
+  }
 }
 header div ul {
   display: flex;
